@@ -1,11 +1,11 @@
 {
     "routes": [
       {
-        "route": "/*",
+        "route": "/",
         "allowedRoles": ["authenticated"]
       },
       {
-        "route": "/api/*",
+        "route": "/api",
         "allowedRoles": ["authenticated"]
       },
       {
