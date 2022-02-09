@@ -2,11 +2,11 @@
     "routes": [
       {
         "route": "/",
-        "allowedRoles": ["anonymous"]
+        "allowedRoles": ["authenticated"]
       },
       {
         "route": "/api",
-        "allowedRoles": ["anonymous"]
+        "allowedRoles": ["authenticated"]
       },
       {
         "route": "/login",
